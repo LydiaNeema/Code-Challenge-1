@@ -99,6 +99,7 @@ The project scope is to create a simple program that estimates the fare for a bo
          let maximumFee=70;
          let transactionFee=0.015;
          let totalTransactionFee=amountToSend*transactionFee;
+          let totalAmount=amountToSend+totalTransactionFee;
          let totalAmountMin=amountToSend+minimumFee;
          let totalAmountMax=amountToSend+maximumFee;
   
@@ -111,6 +112,10 @@ The project scope is to create a simple program that estimates the fare for a bo
           Total amount to be debited:${totalAmountMin}KES
       
       `);
+          }
+      else if(totalTransactionFee>minimumFee&&totalTransactionFee<maximumFee){
+     alert( `Calculated transcationFee is ${totalTransactionFee}:
+      Total amount to be debited:${totalAmount}KES`)
       
   }
            else if(totalTransactionFee>=maximumFee){
