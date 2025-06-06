@@ -38,7 +38,8 @@ console.log(`For cup ${cups} of Kenyan Chai,you will need):
 -${ingredientWater}ml of water
 -${ingredientMilk}ml of milk
 -${ingredientteaLeaves} teaspoons of tea leaves
--${ingredientsugarSpoons}teaspoons of sugar.`)
+-${ingredientsugarSpoons}teaspoons of sugar.
+Enjoy your tea`)
 
 
 
