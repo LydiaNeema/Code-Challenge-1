@@ -78,8 +78,51 @@ The project scope is to create a simple program that estimates the fare for a bo
         alert(`uko si mbali boss.Kukakilia pikipiki ni ${baseFare}ksh so mpaka huko itakuwa ${totalFare}.Twende boss.`)
 7-call the function to calculate the boda fare.
         calculateBodaFare();
+
+
+ // Task 3
+ Project scope is to  simplified estimator for transaction fees.
+ Here is my solution. 
+
+1-declared function
+        <function estimateTransactionFee(){
+        }>
+
+2-declare a varaible with a prompt method    
+        let amountToSend=prompt('unatuma Ngapi?(kes):') 
+
+3-use Number() method to covert the input to a number.
+         amountToSend=Number(amountToSend);
+
+ 4-decared variables and formulas to be used in generating the total amount.
+         let minimumFee=10;
+         let maximumFee=70;
+         let transactionFee=0.015;
+         let totalTransactionFee=amountToSend*transactionFee;
+         let totalAmountMin=amountToSend+minimumFee;
+         let totalAmountMax=amountToSend+maximumFee;
+  
+  
+5-use a conditional statement if to check on the total transcaction fee and give the user an output.
+          if(totalTransactionFee<=minimumFee){
+      
+//alert 0r console.log
+          alert( `Calculated transcationFee is ${minimumFee}:
+          Total amount to be debited:${totalAmountMin}KES
+      
+      `);
+      
+  }
+           else if(totalTransactionFee>=maximumFee){
+  
+           alert (`Calculated transactionFee is ${maximumFee}:
+         Total amount to be debited:${totalAmountMax}KES`);
+      
+  }
   
 
+// call the function
+estimateTransactionFee();
 
 
 
@@ -97,27 +140,12 @@ The project scope is to create a simple program that estimates the fare for a bo
 
 
 
-const water=200;
-const milk=50;
-const teaspoons=1;
-const sugarSpoons=2;
-
-3.Declare formuas to calculate the total amount of ingredients used depending on the users propmt input.
-const ingredientWater=water*cups;
-const ingredientMilk=milk*cups;
-const ingredientTeaLeaves=teaspoons*cups;
-const ingredientSugar=sugarspoons*cups;
-
-
-4.create an an alert to give the user feedback.
-alert('To make ${}'cups of Kenyan Chai,you will need
--${ingredientWater}ml of water
--${ingredientMilk} m of milk
--${ingredientTeaLeaves} teaspons
--${ingredient}
 
 
 
 
 
-)
+
+
+
+
