@@ -126,7 +126,7 @@ The project scope is to create a simple program that estimates the fare for a bo
   }
   
 
-// call the function
+// call the Function
 estimateTransactionFee();
 
 
