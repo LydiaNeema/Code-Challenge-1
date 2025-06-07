@@ -42,7 +42,7 @@ return;
 ```js 
 const water=200;
 const milk=50;
-const tealeaves=1;
+const teaLeaves=1;
 const sugarSpoons=2;
 ```
 
@@ -58,14 +58,14 @@ const ingredientsugarSpoons=sugarSpoons*cups;
 alert(`For cup ${cups} of Kenyan Chai,you will need):
 -${ingredientWater}ml of water
 -${ingredientMilk}ml of milk
--${ngredientteaLeaves} teaspoons of tea leaves
--${ingredientsugarSpoons}teaspoons of sugar.`
+-${ingredientteaLeaves} teaspoons of tea leaves
+-${ingredientsugarSpoons} teaspoons of sugar.`);
 ```
 
 - call the function.
 
 ```js
-calcuateChaiIngredients();
+calculateChaiIngredients();
 ```
 
 # Title 2
