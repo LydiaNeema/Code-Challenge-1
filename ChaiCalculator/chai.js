@@ -5,7 +5,7 @@
 
 //initialize prompt method
 
-     let cups=prompt('Karibu! How many cups of Chai Bora would you like to make?')
+     let cups=prompt('Karibu! How many cups of Chai Bora would you like to make?');
 
 //Convert the cups variables into a number using .number() method
       cups=Number(cups);

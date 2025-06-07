@@ -1,6 +1,6 @@
 
 function estimateTransactionFee(){
-let amountToSend=prompt('unatuma Ngapi?(kes):') 
+let amountToSend=prompt('unatuma Ngapi?(kes):');
 
 //use Number() method to covert the input to a number.
   amountToSend=Number(amountToSend);

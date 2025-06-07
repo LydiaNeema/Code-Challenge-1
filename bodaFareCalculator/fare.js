@@ -3,7 +3,7 @@
 function calculateBodaFare(){
  
 //use the prompt method to ask for users input
-    let distanceInKm=prompt('Unafika wapi Boss? Kilometer ngapi?')
+    let distanceInKm=prompt('Unafika wapi Boss? Kilometer ngapi?');
 
 
 // declare other variables  initiate the baseFare and chargeper kilometer.
