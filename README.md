@@ -69,11 +69,13 @@ calcuateChaiIngredients();
 ```
 
 # Title 2
+
 ## Boda Boda ride fare estimator.
 
-The project scope is to create a simple program that estimates the fare for a boda boda.
 
-1. Declare a function to calculate the bodaboda fare.
+- The project scope is to create a simple program that estimates the fare for a boda boda.
+
+9. Declare a function to calculate the bodaboda fare.
 
 ```js  
        function calculateBodaFare(){
@@ -81,24 +83,25 @@ The project scope is to create a simple program that estimates the fare for a bo
     }
 ```
 
-2. Declare a variabe inside the function-(distanceInKm)with a prompt method to ask for user input.
+10. Declare a variabe inside the function-(distanceInKm)with a prompt method to ask for user input.
 
 ```js 
        let distanceInKm=prompt('Unafika wapi Boss? Kilometer ngapi?')
 ```
 
-3. Declare other variables to initiate the baseFare and chargeper kilometer.
+11. Declare other variables to initiate the baseFare and chargeper kilometer.
 
 ```js let baseFare=50;
         let chargePerKm=15;
 ```
-4. Use Number() method to covert the input to a number.
 
- ```js
+12. Use Number() method to covert the input to a number.
+
+```js
        distanceInKm=Number(distanceInKm);
 ```
 
-5. Use an If statement to validate the input as an interger>0.
+13. Use an If statement to validate the input as an interger>0.
 
 ```js 
      if(distanceInKm<=0){
@@ -106,43 +109,46 @@ The project scope is to create a simple program that estimates the fare for a bo
     } 
  ``` 
 
-6. Declare another variable to initialize the formula for the total fare. 
+14. Declare another variable to initialize the formula for the total fare. 
 
 ```js
          let totalFare=baseFare+(distanceInKm*chargePerKm);
+
         alert(`uko si mbali boss.Kukakilia pikipiki ni ${baseFare}ksh so mpaka huko itakuwa ${totalFare}.Twende boss.`)
  ``` 
 
-7. Call the function to calculate the boda fare.
+15. Call the function to calculate the boda fare.
 
 ```js
  calculateBodaFare();
  ```
 
  # Task 3
+
  ## Project scope is to  simplified estimator for transaction fees.
+
  - Here is my solution. 
 
-1. Declare function
+16. Declare function
 
 ```js
       function estimateTransactionFee(){
         }
 ```
 
-2. Declare a varaible with a prompt method 
+17. Declare a varaible with a prompt method 
 
 ```js 
  let amountToSend=prompt('unatuma Ngapi?(kes):') 
 ```
 
-3. Use Number() method to covert the input to a number.
+18. Use Number() method to covert the input to a number.
 
 ```js      
    amountToSend=Number(amountToSend);
 ```
 
-4. Decared variables and formulas to be used in generating the total amount.
+19. Decared variables and formulas to be used in generating the total amount.
 
  ```js    
          let minimumFee=10;
@@ -155,7 +161,7 @@ The project scope is to create a simple program that estimates the fare for a bo
   
  ``` 
 
-5. Use a conditional statement if to check on the total transcaction fee and give the user an output.
+20. Use a conditional statement if to check on the total transcaction fee and give the user an output.
 
  ```js 
           if(totalTransactionFee<=minimumFee){
@@ -178,7 +184,7 @@ The project scope is to create a simple program that estimates the fare for a bo
   }
  ``` 
 
-6. Call the Function
+21. Call the Function
 
 ```js 
       estimateTransactionFee();
