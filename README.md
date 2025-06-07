@@ -1,6 +1,6 @@
 # Code-Challenge-1
 
- # Title 1-Chai Bora Ingredient Calculator
+# Title 1-Chai Bora Ingredient Calculator
 
 - Project scope-creating a simple calculator to determine the basic ingredients needed to make a specific number of Kenyan Chai.
 
@@ -124,9 +124,9 @@ let chargePerKm=15;
  calculateBodaFare();
  ```
 
- # Task 3
+# Task 3
 
- ## Project scope is to  simplified estimator for transaction fees.
+## Project scope is to  simplified estimator for transaction fees.
 
  - Here is my solution. 
 
