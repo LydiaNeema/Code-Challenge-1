@@ -19,7 +19,7 @@ function calculateChaiIngredients(){
 - I initialised method  prompt()to  ask for user input.
 
 ```js
-     let cups=prompt('Karibu! How many cups of Chai Bora would you like to make?')
+     let cups=prompt('Karibu! How many cups of Chai Bora would you like to make?');
 ```
 
 - Converted the cups variables into a number using .number() method
@@ -86,7 +86,7 @@ calculateChaiIngredients();
 - Declare a variabe inside the function-(distanceInKm)with a prompt method to ask for user input.
 
 ```js 
-       let distanceInKm=prompt('Unafika wapi Boss? Kilometer ngapi?')
+       let distanceInKm=prompt('Unafika wapi Boss? Kilometer ngapi?');
 ```
 
 - Declare other variables to initiate the baseFare and chargeper kilometer.
@@ -115,7 +115,7 @@ let chargePerKm=15;
 ```js
          let totalFare=baseFare+(distanceInKm*chargePerKm);
 
-        alert(`uko si mbali boss.Kukakilia pikipiki ni ${baseFare}ksh so mpaka huko itakuwa ${totalFare}.Twende boss.`)
+        alert(`uko si mbali boss.Kukakilia pikipiki ni ${baseFare}ksh so mpaka huko itakuwa ${totalFare}.Twende boss.`);
  ``` 
 
 - Call the function to calculate the boda fare.
@@ -140,7 +140,7 @@ let chargePerKm=15;
 - Declare a varaible with a prompt method 
 
 ```js 
- let amountToSend=prompt('unatuma Ngapi?(kes):') 
+ let amountToSend=prompt('unatuma Ngapi?(kes):');
 ```
 
 - Use Number() method to covert the input to a number.
