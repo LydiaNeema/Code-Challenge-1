@@ -8,7 +8,7 @@
 
 ## solution
 
-1. Declared a function (calculateChaiIngredients)
+- Declared a function (calculateChaiIngredients)
 
 ```js 
 function calculateChaiIngredients(){
@@ -16,19 +16,19 @@ function calculateChaiIngredients(){
        }
 ```
 
-2. I initialised method  prompt()to  ask for user input.
+- I initialised method  prompt()to  ask for user input.
 
 ```js
      let cups=prompt('Karibu! How many cups of Chai Bora would you like to make?')
 ```
 
-4. Converted the cups variables into a number using .number() method
+- Converted the cups variables into a number using .number() method
 
 ```js
       cups=Number(cups);
 ```
 
-5. Used an if statement to check the validation of the input.
+- Used an if statement to check the validation of the input.
 
 ```js 
      if(cups<=0){
@@ -37,7 +37,7 @@ return;
 }
 ```
 
-6. Declared  default variables for the ingredients per cup.
+- Declared  default variables for the ingredients per cup.
 
 ```js 
 const water=200;
@@ -46,7 +46,7 @@ const tealeaves=1;
 const sugarSpoons=2;
 ```
 
-7. Declared a formula to calculate and display the total ingredients.
+- Declared a formula to calculate and display the total ingredients.
 
 ``` js
 const ingredientWater=water*cups;
@@ -62,7 +62,7 @@ alert(`For cup ${cups} of Kenyan Chai,you will need):
 -${ingredientsugarSpoons}teaspoons of sugar.`
 ```
 
-8.call the function.
+- call the function.
 
 ```js
 calcuateChaiIngredients();
@@ -75,7 +75,7 @@ calcuateChaiIngredients();
 
 - The project scope is to create a simple program that estimates the fare for a boda boda.
 
-9. Declare a function to calculate the bodaboda fare.
+- Declare a function to calculate the bodaboda fare.
 
 ```js  
        function calculateBodaFare(){
@@ -83,25 +83,25 @@ calcuateChaiIngredients();
     }
 ```
 
-10. Declare a variabe inside the function-(distanceInKm)with a prompt method to ask for user input.
+- Declare a variabe inside the function-(distanceInKm)with a prompt method to ask for user input.
 
 ```js 
        let distanceInKm=prompt('Unafika wapi Boss? Kilometer ngapi?')
 ```
 
-11. Declare other variables to initiate the baseFare and chargeper kilometer.
+- Declare other variables to initiate the baseFare and chargeper kilometer.
 
 ```js let baseFare=50;
         let chargePerKm=15;
 ```
 
-12. Use Number() method to covert the input to a number.
+- Use Number() method to covert the input to a number.
 
 ```js
        distanceInKm=Number(distanceInKm);
 ```
 
-13. Use an If statement to validate the input as an interger>0.
+- Use an If statement to validate the input as an interger>0.
 
 ```js 
      if(distanceInKm<=0){
@@ -109,7 +109,7 @@ calcuateChaiIngredients();
     } 
  ``` 
 
-14. Declare another variable to initialize the formula for the total fare. 
+- Declare another variable to initialize the formula for the total fare. 
 
 ```js
          let totalFare=baseFare+(distanceInKm*chargePerKm);
@@ -117,7 +117,7 @@ calcuateChaiIngredients();
         alert(`uko si mbali boss.Kukakilia pikipiki ni ${baseFare}ksh so mpaka huko itakuwa ${totalFare}.Twende boss.`)
  ``` 
 
-15. Call the function to calculate the boda fare.
+- Call the function to calculate the boda fare.
 
 ```js
  calculateBodaFare();
@@ -129,26 +129,26 @@ calcuateChaiIngredients();
 
  - Here is my solution. 
 
-16. Declare function
+- Declare function
 
 ```js
       function estimateTransactionFee(){
         }
 ```
 
-17. Declare a varaible with a prompt method 
+- Declare a varaible with a prompt method 
 
 ```js 
  let amountToSend=prompt('unatuma Ngapi?(kes):') 
 ```
 
-18. Use Number() method to covert the input to a number.
+- Use Number() method to covert the input to a number.
 
 ```js      
    amountToSend=Number(amountToSend);
 ```
 
-19. Decared variables and formulas to be used in generating the total amount.
+- Decared variables and formulas to be used in generating the total amount.
 
  ```js    
          let minimumFee=10;
@@ -161,7 +161,7 @@ calcuateChaiIngredients();
   
  ``` 
 
-20. Use a conditional statement if to check on the total transcaction fee and give the user an output.
+- Use a conditional statement if to check on the total transcaction fee and give the user an output.
 
  ```js 
           if(totalTransactionFee<=minimumFee){
@@ -184,7 +184,7 @@ calcuateChaiIngredients();
   }
  ``` 
 
-21. Call the Function
+- Call the Function
 
 ```js 
       estimateTransactionFee();
