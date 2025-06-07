@@ -91,8 +91,9 @@ calcuateChaiIngredients();
 
 - Declare other variables to initiate the baseFare and chargeper kilometer.
 
-```js let baseFare=50;
-        let chargePerKm=15;
+```js 
+let baseFare=50;
+let chargePerKm=15;
 ```
 
 - Use Number() method to covert the input to a number.
